@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300);
+
+body {
+	font-family: 'Lato:', sans-serif;
+}
+
+.navbar {
+	background-color: #1D62F0;
+	padding: 3px;
+	border-bottom-color: #1D62F0;
+}
+
+.btn {
+	border-color: #F7F7F7;
+	border-width: 3px;
+	background-color: transparent;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 22px;
+}
+
+#name {
+	color: #F7F7F7;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 22px;
+}
+
+#nav {
+	color: #F7F7F7;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+#jtext {
+	color: #F7F7F7;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+	text-shadow: 1px 3px #000000;
+	padding-bottom: 20px;
+}
+
+.jumbotron {
+	background-image: url('../images/splash.jpg');
+	padding-top: 150px;
+	padding-bottom: 250px;
+}
