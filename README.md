@@ -1,4 +1,4 @@
 # Project-Hermes
-HackBCA II Project
-
 Group messages. Reimagined.
+
+Won Best Use of Twilio at HackBCA II
