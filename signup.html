@@ -1,21 +1,93 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		
 		<title>Project Hermes Login</title>
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+		
+		<!--Font Awesome--->
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+		<!--Main CSS Refrence-->
+		<link rel="stylesheet" href="styles/main.css">
+		
+		<!--Animate CSS Refrence-->
+		<link rel="stylesheet" href="styles/animate.css">
+		
 	</head>
 	<body>
-				<h2>Login</h2>
-		<form action="http://2e108c98.ngrok.com/login" method="post">
-			<p>Username: <input type="text" name="username"/></p>
-			<p>Password: <input type="password" name="password"/></p>			
-			<button>Submit</button>
-		</form>
-		<h2>Sign Up</h2>
-		<form action="http://2e108c98.ngrok.com/signup" method="post">
-			<p>Username: <input type="text" name="signupUsername"/></p>
-			<p>Password: <input type="password" name="signupPassword"/></p>
-			<p>Confirm Password: <input type="password" name="signupPasswordConfirm"/></p>
-			<button>Submit</button>
-		</form>
+		
+		<!-- Navigation -->
+	    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	        <div class="container">
+	            <div class="navbar-header page-scroll">
+	                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+	                    <span class="sr-only">Toggle navigation</span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                </button>
+	                <a id="name" class="navbar-brand page-scroll" href="index.html">Project Hermes</a>
+	            </div>
+	        </div>
+	    </nav>
+		<div id="silo" class="row">
+		<div class="col-md-1"></div>
+		<div id="log" class="col-md-4">
+			<center>
+			<h1 id="silohead">Login</h1>
+			<form action="http://2e108c98.ngrok.com/login" method="post">
+				<p>Username: <input type="text" name="username" placeholder="DarthRishi"/></p>
+				<p>Password: <input type="password" name="password" placeholder="fleeboi"/></p>			
+				<button>Submit</button>
+			</form>
+			</center>
+		</div>
+		<div class="col-md-2"></div>
+		<div id="sign" class="col-md-4">
+			<center>
+			<h1 id="silohead">Sign Up</h1>
+			<form action="http://bcahermes.fwd.wf/signup" method="post">
+				<p>Username: <input type="text" name="signupUsername" placeholder="ArthurIsCool"/></p>
+				<p>Password: <input type="password" name="signupPassword" placeholder="swagmoney"/></p>
+				<p>Confirm Password: <input type="password" name="confirmsSignupPassword" placeholder="swagmoney"/></p>
+				<p>Group name: <input type="text" name="groupName" placeholder="Sadboyz2015"/></p>
+				<p>Name: <input type="text" name="name0" placeholder="Nirmal Patel"/></p>
+				<p>Number: <input type="text" name="number0" placeholder="+17324201234"/></p>
+				<p>Name: <input type="text" name="name1" placeholder="Nirmal Patel"/></p>
+				<p>Number: <input type="text" name="number1" placeholder="+17324201234"/></p>
+				<p>Name: <input type="text" name="name2" placeholder="Nirmal Patel"/></p>
+				<p>Number: <input type="text" name="number2" placeholder="+17324201234"/></p>
+				<button>Submit</button>
+			</form>
+			</center>
+		</div>
+		<div class="col-md-1"></div>
+		</div>
+		
+		<!-- Bootstrap Minified JS -->
+		<script src="scripts/bootstrap.min.js"></script>
+		
+		<!-- Jquery reference-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+		<!-- Parallax effect reference -->
+		<script src="scripts/parallax.min.js"></script>
+
+		<script src="scripts/wow.min.js"></script>
+		<script>
+			new WOW().init();
+		</script>
+		
+		<script type="text/javascript"> 
+		 $(document).ready(function() { 
+		 $("#condor").condor(); 
+		 }); 
+		</script> 
+		
 	</body>
 </html>
