@@ -17,18 +17,24 @@ body {
 	border-bottom-color: #1D62F0;
 }
 
+.nav li:hover {
+    background: #F7F7F7;
+}
+
 #btntop {
-	border-color: #F7F7F7;
+    border-color: transparent;
+    color: #F7F7F7;
+    font-weight: bold;
 	border-width: 3px;
-	background-color: transparent;
+	background-color: #1D62F0;
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	font-size: 22px;
 }
 
 #btntop:hover {
-	border-color: #1D62F0;
-	background-color: #1D62F0;
+    color: #1D62F0;
+    background-color: #F7F7F7;
 }
 
 .fa-check {
@@ -51,6 +57,10 @@ body {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	font-size: 20px;
+}
+
+#nav:hover {
+    color: #1D62F0;
 }
 
 #jtext {
