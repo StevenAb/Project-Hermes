@@ -1,4 +1,4 @@
-# Project-Hermes
-Enhances group texting experience by allowing users to address Hermes to execute commands. Won Best Use of Twilio API at HackBCA II March 29, 2015
+Project Hermes
 
-By: Rishi Masand, Steven Abreu, Arthur Dzieniszewski, and Collin Draper
+HackBCA II 
+Won Best Use of Twilio API
